@@ -1,0 +1,1 @@
+CustomerMailFactory ใช้ factory method pattern โดยสร้าง object ของ customers (Regular, Mountain, Delinquent) และ brochures ของแต่ละประเภท ทำให้ CustomerMailApplication สามารถสร้าง instance ของ object ทั้ง Customer และ Brochure ได้โดยไม่ต้องใช้ concrete class ทำให้เกิด lossely coupled
